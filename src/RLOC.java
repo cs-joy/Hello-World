@@ -57,5 +57,64 @@ public class RLOC {
         boolean and= n1 == 5 && n2 == 2; // need to both of them are true
         System.out.println(and);
 
+
+        // conditional statements
+        // if statement
+        if(n1>3) {
+            System.out.println("number is greater than 3");
+        }
+        System.out.println("Continue...");
+
+        // if..else statement
+        if(n2>3) {
+            System.out.println("number is greater than 3");
+        } else {
+            System.out.println("number is less than 3");
+        }
+        System.out.println("Continue...");
+
+        // second way to demonstrate with boolean
+        boolean is_true = n1 > 3;
+        // is_true == true
+        // is_true
+        // both meaning are same
+        if(!is_true) {
+            System.out.println("number is greater than 3");
+        } else {
+            System.out.println("number is less than 3");
+        }
+
+        // if... else if .. else statement
+        if (n1 > 0) {
+            System.out.println("n1 is Positive");
+        } else if (n1 < 0) {
+            System.out.println("n1 is Negative");
+        } else {
+            System.out.println("n1 is Zero");
+        }
+
+        // switch statement
+        switch(n1) {
+            case 1:
+                System.out.println("n1 is 1");
+
+            case 2:
+                System.out.println("n1 is 2");
+
+            case 3:
+                System.out.println("n1 is 3");
+
+            case 4:
+                System.out.println("n1 is 4");
+
+            case 5:
+                System.out.println("n1 is 5");
+                break;
+
+            default:
+                System.out.println("n1 is not one, two, three, four or five");
+                break;
+        }
+
     }
 }
