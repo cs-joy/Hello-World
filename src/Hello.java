@@ -23,7 +23,12 @@ public class Hello {
 
         // keep in mind, (int, float, double, long and char) are primitive data type in java
 
-        String myString = "Rj Zahangir Alam"; // String is a object in java
+        String myString = "Rj Zahangir Alam"; // String is a class in java
         System.out.println(myString);
+
+        boolean myBool = true; // either `true` or `false`
+        System.out.println(myBool);
+
+        // this is are basics data types in java and which of those we are using in this course
     }
 }
