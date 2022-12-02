@@ -17,5 +17,13 @@ public class Hello {
 
         float myFloat = (float)7.3; // allways need to do casting because fractional numbers are double in defualt
         System.out.println(myFloat);
+
+        char myChar = '\u2122'; // unicode is important, s:: https://www.fileformat.info/info/unicode/char/00ae/index.htm
+        System.out.println(myChar);
+
+        // keep in mind, (int, float, double, long and char) are primitive data type in java
+
+        String myString = "Rj Zahangir Alam"; // String is a object in java
+        System.out.println(myString);
     }
 }
