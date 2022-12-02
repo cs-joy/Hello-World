@@ -1,4 +1,4 @@
-public class Hello {
+public class dataTypes {
     public static void main(String[] args) {
         //System.out.print("Hello World");
         //System.out.println("Hello Wolrd");
