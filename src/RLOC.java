@@ -19,7 +19,7 @@ public class RLOC {
 
 
         // main topic
-        // comparison operator
+        // comparison operators
         int n1 = 5;
         int n2 = 3;
 
@@ -46,6 +46,16 @@ public class RLOC {
         // not equal to be operator
         boolean isNotEqual = n1 != n2;
         System.out.println(isNotEqual);
+
+
+        // logical operators
+        // or operator
+        boolean or= n1 == 5 || n2 == 2; // need to any of one true
+        System.out.println(or);
+
+        // and operator
+        boolean and= n1 == 5 && n2 == 2; // need to both of them are true
+        System.out.println(and);
 
     }
 }
