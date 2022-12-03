@@ -67,5 +67,13 @@ public class arrays {
                 System.out.println(randomNumber[i][j]);
             }
         }
+
+        System.out.println("another way , for loop");
+        // sec way for loop prints all result
+        for(int i=0; i<randomNumber.length; i++) {
+            for(int j = 0; j<randomNumber[i].length; j++) {
+                System.out.println(randomNumber[i][j]);
+            }
+        }
     }
 }
