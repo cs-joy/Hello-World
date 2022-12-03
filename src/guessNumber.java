@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class guessNumber {
+    // https://www.youtube.com/watch?v=fis26HvvDII&t=7445s
     /**
      * We are going to make a GAME
      * The concept is: Generating a random number and ask the user to guess the number,
