@@ -41,5 +41,31 @@ public class arrays {
         for(int i: numbers) {
             System.out.println(i);
         }
+
+
+        // Multidimensional array
+        System.out.println("Multidimensional array");
+
+        // for int type
+        int[][] randomNumber = {
+            {3, 7, 4},
+            {1, 8, 2},
+            {5, 0, 9}
+        };
+
+        // access elment of the array
+        System.out.println(randomNumber[1][1]); // prints out: 8
+
+        // update/change element value of the array
+        randomNumber[2][1] = 6;
+        System.out.println(randomNumber[2][1]);
+
+        System.out.println("for loop");
+        // for loop
+        for(int i=0; i<randomNumber.length; i++) {
+            for(int j = 0; j<randomNumber.length; j++) {
+                System.out.println(randomNumber[i][j]);
+            }
+        }
     }
 }
