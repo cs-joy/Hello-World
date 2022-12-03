@@ -41,5 +41,12 @@ public class Loops {
             System.out.println("Do...While");
         } while (doWhile < 5);
 
+
+        // for each loop
+        String[] friends = {"Kelvin", "Kalen", "Scarry", "Jim", "Kaven", "Joe"};
+        for (String i: friends) {
+            System.out.println(i);
+        }
+
     }
 }
