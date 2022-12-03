@@ -33,5 +33,13 @@ public class Loops {
             System.out.println("Hello");
         }
 
+
+        
+        // do...while loop - print out result at least one even condition is false(no matter what's the condition are there)
+        int doWhile = 5;
+        do {
+            System.out.println("Do...While");
+        } while (doWhile < 5);
+
     }
 }
