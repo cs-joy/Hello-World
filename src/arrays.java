@@ -31,5 +31,15 @@ public class arrays {
         for(int i =0; i<numbers.length; i++) {
             System.out.println(numbers[i]);
         }
+
+        System.out.println("for-each\n");
+        // using for-each loop to print out all the element of an array
+        for(String i:friends) {
+            System.out.println(i);
+        }
+
+        for(int i: numbers) {
+            System.out.println(i);
+        }
     }
 }
