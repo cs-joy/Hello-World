@@ -22,6 +22,15 @@ public class Primitive {
         short s2Num = 1000;
         //short res = sNumber + s2Num; // we can't do that because of if we add two numbers then it exceed the limit of short range.
         System.out.println(sNumber + s2Num); // but here we can use it this way because after adding two numbers of short data type it's going to be an int data type and this values holds it as a int type that's why there have no error
+       
+        // 3. `int` data types
+        int intNumber = 876542541; // range= -2,147,483,648 to 2,147,483,647
+        System.out.println(intNumber);
+
+        // 4. `long` data types
+        // you should end the value with an "L"
+        long longNumber = 9223372036854775807L; // range= -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        System.out.println(longNumber);
     }
 
 }
