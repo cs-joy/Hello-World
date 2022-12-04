@@ -52,6 +52,14 @@ public class Primitive {
         boolean javaIsFun = true;
         boolean javaIsHardToLearn = false;
         System.out.println(javaIsFun + "\n" + javaIsHardToLearn);
+
+        // 8. `char` data types
+        char grade = 'A'; // range= a single character/letter or ASCII values
+        System.out.println(grade);
+
+        // Alternatively, if you are familiar with ASCII values, you can use those to display certain characters
+        char var1 = 122, var2 = 115; // source: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+        System.out.println(var1 + "" + var2);
     }
 
 }
