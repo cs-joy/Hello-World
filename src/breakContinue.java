@@ -26,6 +26,14 @@ public class breakContinue {
         }
 
         // in while
-        
+        System.out.println("continue in while loop");
+        while(num < 20) {
+            if(num == 17) {
+                num++;
+                continue;
+            }
+            System.out.println(num);
+            num++;
+        }
     }
 }
