@@ -21,4 +21,5 @@ public class methods {
             System.out.println("Access granted - You are old enough!");
         }
     }
+
 }
