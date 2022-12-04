@@ -12,9 +12,16 @@
  */
 public class Primitive {
     public static void main(String[] args) {
-        //1. byte data types
-        byte myNumber = 127; // range(-128 to 127)
+
+        // 1. `byte` data types
+        byte myNumber = 127; // range= -128 to 127
         System.out.println(myNumber);
+
+        // 2. `short` data types
+        short sNumber = 32341;// range= -32,768 to 32,767
+        short s2Num = 1000;
+        //short res = sNumber + s2Num; // we can't do that because of if we add two numbers then it exceed the limit of short range.
+        System.out.println(sNumber + s2Num); // but here we can use it this way because after adding two numbers of short data type it's going to be an int data type and this values holds it as a int type that's why there have no error
     }
 
 }
