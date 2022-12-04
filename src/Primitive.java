@@ -31,6 +31,27 @@ public class Primitive {
         // you should end the value with an "L"
         long longNumber = 9223372036854775807L; // range= -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
         System.out.println(longNumber);
+
+        // 5. `float` data types
+        //  you should end the value with an "f"
+        float floatNumber = 244.214f; // range= Sufficient for storing 6 to 7 decimal digits
+        System.out.println(floatNumber);
+
+        // 6. `double` data types
+        // you should end the value with an "d"
+        double doubleNum = 3144.243551276804251d; // range= Sufficient for storing 15 decimal digits
+        System.out.println(doubleNum);
+
+        // Scientific numbers
+        // A floating point number can also be a scientific number with an "e" to indicate the power of 10
+        float num1 = 234e4f;
+        double num2 = 34E5d;
+        System.out.println(num1 + "\n" + num2);
+
+        // 7. `boolean` data types
+        boolean javaIsFun = true;
+        boolean javaIsHardToLearn = false;
+        System.out.println(javaIsFun + "\n" + javaIsHardToLearn);
     }
 
 }
