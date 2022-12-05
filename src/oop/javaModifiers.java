@@ -22,4 +22,7 @@ public class javaModifiers {
        * synchronized - Methods can only be accessed by one thread at a time
        * volatile - The value of an attribute is not cached thread-locally, and is always read from the "main memory"
      */
+
+
+     // abstract
 }
