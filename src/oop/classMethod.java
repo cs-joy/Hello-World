@@ -1,6 +1,6 @@
 package oop;
 
-import java.security.PublicKey;
+// static vs. public
 
 public class classMethod {
     // static method
