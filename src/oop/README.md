@@ -13,3 +13,23 @@ Procedural programming is about writing procedures or methods that perform opera
 
 ##### Tip: 
 The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+
+### What are Classes and Objects?
+
+```
+class
+
+cars
+```
+
+```
+objects
+
+apple
+banana
+mango
+```
+
+So, a class is a template for objects, and an object is an instance of a class.
+
+When the individual objects are created, they inherit all the variables and methods from the class.
