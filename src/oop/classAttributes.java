@@ -21,6 +21,9 @@ public class classAttributes {
 
         // didn't ability to override existing values
         finalKeyword();
+
+        // final with function
+        myObj.finalFunction();
     }
 
     public static void updateAttributeValue() {
@@ -50,5 +53,13 @@ public class classAttributes {
         final int value = finalAtt.x;
         System.out.println("value= " + value);
         //value = 9; // the final local varibale value cannot be assigned
+    }
+
+    public static final void finalFunction() {
+        int x1 = 4;
+        int x2 = 5;
+        int result = x1 + x2;
+
+        System.out.println("result= " + result);
     }
 }
