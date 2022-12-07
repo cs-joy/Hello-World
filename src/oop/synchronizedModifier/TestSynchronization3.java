@@ -1,6 +1,7 @@
 package oop.synchronizedModifier;
 
 // example of synchronized method by using annonymous class
+//  we have created the two threads by using the anonymous class, so less coding is required.
 
 class List {
     synchronized void printList(int number) { // synchronized method
@@ -37,3 +38,6 @@ public class TestSynchronization3 {
         t2.start();
     }
 }
+
+
+// ref :: https://www.javatpoint.com/synchronization-in-java
