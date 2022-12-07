@@ -1,6 +1,5 @@
 package oop.synchronizedModifier;
 
-import javafx.scene.control.Tab;
 
 class Table {
     void printTable(int n) { // method not synchronized
