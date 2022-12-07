@@ -22,6 +22,7 @@ synchronized(sync_object)
 // send a message
 class Sender {
     public synchronized void send(String msg) {
+        System.out.println("Sending\t" + msg);
         try {
             Thread.sleep(1000);
         }
@@ -74,3 +75,7 @@ public class explain {
         }
     }
 }
+
+
+
+// ref:: https://www.geeksforgeeks.org/synchronization-in-java/
