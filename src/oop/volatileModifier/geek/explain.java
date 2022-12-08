@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class explain {
-    private static final Logger LOGGER = MyLoggerFactory.getSimplestLoggerr();
+    private static final Logger LOGGER = LoggerFactory.getSimplestLoggerr();
     private static volatile int MY_INT = 0;
 
     public static void main(String[] args) {
